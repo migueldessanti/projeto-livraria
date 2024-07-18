@@ -1,7 +1,13 @@
 #topo {
-    background-color: blue;
-    background: background: rgb(2,0,36);
+    background-color: background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,20,1) 0%, rgba(0,212,255,1) 100%);;
+    text-align: center;
+    color: red;
+
+}
+h1, h2 {
+    text-align: center;
+    color: red;
 }
 #menu {
     background-color: blueviolet;
@@ -12,3 +18,28 @@
 #rodape {
     background-color: darkkhaki;
 }
+p {
+    font-weight: 900;
+    font-size: 100%;
+    color: white;
+    text-indent: 100px
+}
+a { 
+    text-decoration: none;
+}
+a:visited {
+    color: antiquewhite;
+}
+a:hover{
+    background-color: black;
+    color: yellow;
+    font-size: 30px;
+    margin: 5px;
+    border: solid 2px white;
+}
+#topo:hover {
+    display: none;
+}
+/***********************PROPRIEDADES DE FONTES*********************
+/*font-family - Altera família de fontes
+font-style - deixa a fonte italica
